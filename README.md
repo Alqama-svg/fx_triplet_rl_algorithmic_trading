@@ -191,7 +191,7 @@ The plots illustrate a representative sample of the cumulative P&L trajectory, e
 
 ![EUR and GBP Inventories on every 10 Evaluation](images/Inventory_trajectories.png)
 
-![PnL Distribution over 2000 episodes](iamges/PnL_distribution.png)
+![PnL Distribution over 2000 episodes](images/PnL_distribution.png)
 
 ![Return on Policy over 200 episodes](images/policy_return_distribution.png)
 
@@ -220,6 +220,8 @@ For LaTeX users, the following BibTeX entry can be used:
   doi={10.2139/ssrn.3812473}
 }
 ```
+
+
 
 
 
