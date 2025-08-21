@@ -183,7 +183,9 @@ Key hyperparameters that can be adjusted in `config.yaml` include:
 
 ## Graphical Results
 
-The plot illustrates a representative sample of the cumulative P&L trajectory for the DDQN agent versus the baseline strategy over a single evaluation episode. The graph clearly shows the agent's ability to generate consistent, steady profits by actively trading the mean-reverting spread, whereas the naive baseline strategy struggles to perform, highlighting the superiority of the learned policy.
+The plots illustrate a representative sample of the cumulative P&L trajectory, episode rewards, PnL inventories, Inventory trajectories, and EUR & GBP Trajectories for the DDQN agent versus the baseline strategy over a single evaluation episode. The graph clearly shows the agent's ability to generate consistent, steady profits by actively trading the mean-reverting spread, whereas the naive baseline strategy struggles to perform, highlighting the superiority of the learned policy.
+
+
 
 ---
 
@@ -204,5 +206,7 @@ For LaTeX users, the following BibTeX entry can be used:
   doi={10.2139/ssrn.3812473}
 }
 ```
+
+
 
 
