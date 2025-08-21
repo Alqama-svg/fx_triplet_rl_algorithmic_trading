@@ -112,14 +112,35 @@ Repository Structure
 ```
 ├── data/                  # Directory for saving results, plots, and training logs
 ├── models/                # Directory for saving trained model weights
+├── envs/
+|   ├── fx_triplet_env.py
+|   ├── __init__.py
+├── notebooks
+|   ├── ddqn_baseline.ipynb
+|   ├── gym_env_ddqn_merged.ipynb
+|   ├── RDMM_agent.ipynb
+|   ├── ddqn_checkpoints/
+|   ├── ddqn_checkpoints_paper/
+|   ├── ddqn_logs/
+|   ├── ddqn_logs_paper/
+|   ├── rdmm_checkpoints/
+|   ├── rdmm_logs/
+├── images/
+|   ├── episode_reward.png
+|   ├── EUR_GBP_Inventories.png
+|   ├── Inventory_trajectories.png
+|   ├── PnL_distribution.png
+|   ├── policy_return_distribution.png
+|   ├── RDMM_rewards.png
+|   ├── reward_distribution.png
+|   ├── Train_loss_episode_rewards.png
 ├── src/
-│   ├── agent.py           # Contains the DRL agent classes (DDQN, RDMM)
-│   ├── environment.py     # The simulated FX triplet market environment
-│   ├── models.py          # PyTorch neural network architectures
-│   ├── replay_buffer.py   # Experience replay buffer implementation
-│   └── utils.py           # Utility functions for plotting, logging, etc.
-├── config.yaml            # Central configuration file for all hyperparameters
-├── main.py                # Main script to run training and evaluation sessions
+│   ├── ddqn_baseline.py           # Contains the DRL agent classes (DDQN)
+│   ├── fx_triplet_env.py          # The simulated FX triplet market environment
+│   ├── gym_env_ddqn_merged.py     # Combined class
+│   ├── RDMM_agent.py              # Contains the DRL agent classes (RDMM)
+│   └── setup.py                   # setup function
+|
 ├── requirements.txt       # List of Python dependencies for easy installation
 └── README.md              # This documentation file
 ```
@@ -220,6 +241,7 @@ For LaTeX users, the following BibTeX entry can be used:
   doi={10.2139/ssrn.3812473}
 }
 ```
+
 
 
 
