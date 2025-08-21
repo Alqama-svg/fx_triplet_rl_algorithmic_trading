@@ -191,15 +191,15 @@ The plots illustrate a representative sample of the cumulative P&L trajectory, e
 
 ![EUR and GBP Inventories on every 10 Evaluation](images/Inventory_trajectories.png)
 
-![PnL Distribution over 2000 episodes](PnL__distribution.png)
+![PnL Distribution over 2000 episodes](iamges/PnL_distribution.png)
 
-![Return on Policy over 200 episodes](policy_return_distribution.png)
+![Return on Policy over 200 episodes](images/policy_return_distribution.png)
 
-![RDMM Rewards over 2000 episodes](RDMM_rewards.png)
+![RDMM Rewards over 2000 episodes](images/RDMM_rewards.png)
 
-![Average Reward_Distribution over 2000, rolling average is 50](reward_distribution.png)
+![Average Reward_Distribution over 2000, rolling average is 50](images/reward_distribution.png)
 
-![Training Loss over training steps and Episode Rewards over Episodes](Train_loss_episode_rewards.png)
+![Training Loss over training steps and Episode Rewards over Episodes](images/Train_loss_episode_rewards.png)
 
 ---
 
@@ -220,6 +220,8 @@ For LaTeX users, the following BibTeX entry can be used:
   doi={10.2139/ssrn.3812473}
 }
 ```
+
+
 
 
 
