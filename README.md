@@ -185,7 +185,21 @@ Key hyperparameters that can be adjusted in `config.yaml` include:
 
 The plots illustrate a representative sample of the cumulative P&L trajectory, episode rewards, PnL inventories, Inventory trajectories, and EUR & GBP Trajectories for the DDQN agent versus the baseline strategy over a single evaluation episode. The graph clearly shows the agent's ability to generate consistent, steady profits by actively trading the mean-reverting spread, whereas the naive baseline strategy struggles to perform, highlighting the superiority of the learned policy.
 
+![Episode Reward Curve](images/episode_reward.png)
 
+![EUR and GBP Inventories](images/EUR_GBP_Inventories.png)
+
+![EUR and GBP Inventories on every 10 Evaluation](images/Inventory_trajectories.png)
+
+![PnL Distribution over 2000 episodes](PnL__distribution.png)
+
+![Return on Policy over 200 episodes](policy_return_distribution.png)
+
+![RDMM Rewards over 2000 episodes](RDMM_rewards.png)
+
+![Average Reward_Distribution over 2000, rolling average is 50](reward_distribution.png)
+
+![Training Loss over training steps and Episode Rewards over Episodes](Train_loss_episode_rewards.png)
 
 ---
 
