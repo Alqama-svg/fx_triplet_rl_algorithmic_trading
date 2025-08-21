@@ -85,18 +85,18 @@ action evaluation. It maintains two separate neural networks: a primary (or onli
 
 ## Implementation Architecture
 
-This section provides a detailed overview of the codebase structure, connecting the theoretical concepts discussed above to their concrete implementation in Python and the PyTorch framework. The architecture is designed to be modular, configurable, and extensible.
+**This section provides a detailed overview of the codebase structure, connecting the theoretical concepts discussed above to their concrete implementation in Python and the PyTorch framework. The architecture is designed to be modular, configurable, and extensible.**
 
-`environment.py`: **The Simulated Market**
+`environment.py`: ### The Simulated Market**
 This module is the heart of the simulation, containing the `XTripletEnvironment` class. This class is responsible for creating a realistic market environment in which the DRL agent can be trained and evaluated.
 
 - It implements the co-integrated stochastic process that governs the evolution of the FX triplet's exchange rates. A Vector Error Correction Model (VECM) is a suitable choice for generating realistic, path-dependent price series that exhibit the desired mean-reverting properties.
 - It manages the agent's state at each time step, including its current inventory holdings and the prevailing market prices.
 - It exposes a standard OpenAI Gym-like interface, with a primary `step(action)` method. This method takes an action from the agent as input, advances the market simulation to the next time step, calculates the corresponding reward based on the change in portfolio value, and returns the new state, the reward, and a flag indicating the end of the episode.
 
-`agent.py`: **The DRL Trading Agent**
+`agent.py`: ### The DRL Trading Agent**
 
-This module contains the logic for the learning agents, including the `DDQNAgent` class and potentially an `RDMMAgent` class.
+**This module contains the logic for the learning agents, including the `DDQNAgent` class and potentially an `RDMMAgent` class.**
 
 - **Neural Network:** It defines the Q-network architecture using the `torch.nn` module. The network is typically a Multi-Layer Perceptron (MLP) that takes the flattened state vector as input and outputs a vector of Q-values, one for each possible discrete action. For the RDMM, this architecture would be augmented with recurrent layers.
 - **Replay Buffer:** It implements an experience replay buffer, a critical component for stabilizing the training of off-policy DRL algorithms like DDQN. The buffer stores past transitions (tuples of `(state, action, reward, next_state)`) and allows the agent to sample random mini-batches from this memory to train the network. This practice breaks the temporal correlations inherent in sequential data, leading to more stable and efficient learning.
