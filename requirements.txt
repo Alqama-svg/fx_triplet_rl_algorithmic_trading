@@ -1,0 +1,9 @@
+torch>=1.10.0
+numpy
+pandas
+matplotlib
+gymnasium
+math
+tqdm
+math
+pyyaml
