@@ -168,8 +168,8 @@ Ensure you have the following software installed on your system:
 
 1. Clone the repository to your local machine:
 ```
-git clone https://github.com/your-username/drl-fx-arbitrage.git
-cd drl-fx-arbitrage
+git clone https://github.com/your-username/fx_triplet_rl_algorithmic_trading.git
+cd fx_triplet_rl_algorithmic_trading
 ```
 
 2. It is highly recommended to use a virtual environment to manage project dependencies and avoid conflicts. Create and activate a new virtual environment:
@@ -243,6 +243,7 @@ For LaTeX users, the following BibTeX entry can be used:
   doi={10.2139/ssrn.3812473}
 }
 ```
+
 
 
 
