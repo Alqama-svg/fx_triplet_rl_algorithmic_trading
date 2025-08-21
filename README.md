@@ -144,8 +144,9 @@ Repository Structure
 │   ├── RDMM_agent.py              # Contains the DRL agent classes (RDMM)
 │   └── setup.py                   # setup function
 |
-├── requirements.txt       # List of Python dependencies for easy installation
-└── README.md              # This documentation file
+├── requirements.txt      # List of Python dependencies for easy installation
+└── README.md             # This documentation file
+├── LICENSE.txt           # MIT LICENSE
 ```
 ---
 
@@ -242,6 +243,7 @@ For LaTeX users, the following BibTeX entry can be used:
   doi={10.2139/ssrn.3812473}
 }
 ```
+
 
 
 
