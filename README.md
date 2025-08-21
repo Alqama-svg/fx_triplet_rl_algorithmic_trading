@@ -7,7 +7,6 @@
 ![DeepRL](https://img.shields.io/badge/Reinforcement-Learning-orange)
 ![Jupyter](https://img.shields.io/badge/Notebook-ready-yellow)
 ![PyTorch](https://img.shields.io/badge/pytorch-1.10%2B-orange.svg)
-![](https://img.shields.io/badge/build-passing-brightgreen.svg)
 
 ## Overview
 
@@ -205,4 +204,5 @@ For LaTeX users, the following BibTeX entry can be used:
   doi={10.2139/ssrn.3812473}
 }
 ```
+
 
