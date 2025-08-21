@@ -187,8 +187,7 @@ The plots illustrate a representative sample of the cumulative P&L trajectory, e
 
 ![Episode Reward Curve](images/episode_reward.png)
 ![EUR and GBP Inventories](images/EUR_GBP_Inventories.png)
-![EUR and GBP Inventories over every 10 Evaluation](images/Inventory_trajectories.png)
-![PnL Distribution over 2000 episodes](PnL__distribution.png)
+![EUR and GBP Inventories on every 10 Evaluation](images/Inventory_trajectories.png)
 ![PnL Distribution over 2000 episodes](PnL__distribution.png)
 ![Return on Policy over 200 episodes](policy_return_distribution.png)
 ![RDMM Rewards over 2000 episodes](RDMM_rewards.png)
@@ -214,5 +213,6 @@ For LaTeX users, the following BibTeX entry can be used:
   doi={10.2139/ssrn.3812473}
 }
 ```
+
 
 
