@@ -22,6 +22,9 @@ The methodology presented by Cartea et al. offers a powerful synthesis of these 
 
 solver for complex, path-dependent optimal control problems within a well-specified and financially plausible model of the world. This "model-based simulation" approach makes the resulting strategies more interpretable and robust, as the agent's performance can be directly attributed to its learned ability to exploit the specific dynamics of the co-integrated model. This represents a significant maturation of the field, moving from speculative applications toward rigorous, model-informed problem-solving.
 
+> **Deep Reinforcment Learning for Algorithmic Trading**
+> Cartea, Á., Jaimungal, S., and Sánchez-Betancourt, L. (2021) — [doi.org:ssrn.3812473](https://doi.org/10.2139/ssrn.3812473)
+
 ---
 
 ## Theoretical Foundations
@@ -228,8 +231,6 @@ The plots illustrate a representative sample of the cumulative P&L trajectory, e
 
 If you use this code, the underlying methodology, or the analysis presented in this repository for your research, please ensure you cite the original paper by Cartea, Jaimungal, and Sánchez-Betancourt.
 
-Cartea, Á., Jaimungal, S., & Sánchez-Betancourt, L. (2021). Deep Reinforcement Learning for Algorithmic Trading. SSRN Electronic Journal. https://doi.org/10.2139/ssrn.3812473
-
 For LaTeX users, the following BibTeX entry can be used:
 
 ```
@@ -241,6 +242,7 @@ For LaTeX users, the following BibTeX entry can be used:
   doi={10.2139/ssrn.3812473}
 }
 ```
+
 
 
 
